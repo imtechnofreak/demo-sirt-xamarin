@@ -32,7 +32,7 @@ namespace MyXamarinApp
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)
-        {
+        { 
             string text = inputbill.Text;
             var bill = double.Parse(text);
             var tip = bill * 0.15;
